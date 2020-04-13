@@ -6,10 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "postinstall": "npm run download-webviewer",
-    "download-webviewer": "npx @pdftron/webviewer-downloader"
+    "postinstall": "node tools/copy-webviewer-files.js"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^6.2.3",
     "core-js": "^3.4.8",
     "vue": "^2.6.10"
   },
