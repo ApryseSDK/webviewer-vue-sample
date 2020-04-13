@@ -11,6 +11,7 @@
   "dependencies": {
     "@pdftron/webviewer": "^6.2.3",
     "core-js": "^3.4.8",
+    "fs-extra": "^9.0.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
