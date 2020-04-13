@@ -11,15 +11,16 @@
   "dependencies": {
     "@pdftron/webviewer": "^6.2.3",
     "core-js": "^3.4.8",
+    "fs-extra": "^9.0.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.1",
     "@vue/cli-plugin-eslint": "^4.1.1",
-    "@vue/cli-service": "^4.1.1",
+    "@vue/cli-service": "^4.3.1",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.0.1",
+    "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
