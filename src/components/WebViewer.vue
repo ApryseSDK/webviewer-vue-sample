@@ -4,6 +4,8 @@
 
 <script>
 /* eslint-disable */
+import WebViewer from '@pdftron/webviewer'
+
 export default {
   name: 'WebViewer',
   props: {
