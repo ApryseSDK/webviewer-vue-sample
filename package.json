@@ -9,7 +9,7 @@
     "postinstall": "node tools/copy-webviewer-files.js"
   },
   "dependencies": {
-    "@pdftron/webviewer": "^6.2.3",
+    "@pdftron/webviewer": "^7.0.0",
     "core-js": "^3.4.8",
     "fs-extra": "^9.0.0",
     "vue": "^2.6.10"
@@ -21,7 +21,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
