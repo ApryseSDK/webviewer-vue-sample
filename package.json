@@ -1,27 +1,25 @@
 {
   "name": "webviewer-vue-sample",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "postinstall": "node tools/copy-webviewer-files.js"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@pdftron/webviewer": "^7.0.0",
-    "core-js": "^3.4.8",
-    "fs-extra": "^9.0.0",
-    "vue": "^2.6.10"
+    "@pdftron/webviewer": "^7.0.1",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0-0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.1.1",
-    "@vue/cli-plugin-eslint": "^4.1.1",
-    "@vue/cli-service": "^4.3.1",
-    "babel-eslint": "^10.0.3",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "eslint-plugin-vue": "^7.0.0-0"
   },
   "eslintConfig": {
     "root": true,
@@ -29,21 +27,17 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/vue3-essential",
       "eslint:recommended"
     ],
-    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
+    },
+    "rules": {}
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions"
+    "last 2 versions",
+    "not dead"
   ]
 }
