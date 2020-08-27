@@ -1,32 +1,30 @@
 <template>
-  <div ref='viewer'></div>
+  <div id="webviewer" ref="viewer"></div>
 </template>
 
 <script>
-/* eslint-disable */
-import WebViewer from '@pdftron/webviewer'
+import { ref, onMounted } from 'vue';
+import WebViewer from '@pdftron/webviewer';
 
 export default {
   name: 'WebViewer',
-  props: {
-    path: String,
-    url: String
+  props: { initialDoc: { type: String } },
+  setup(props) {
+    const viewer = ref(null);
+    onMounted(() => {
+      const path = `${process.env.BASE_URL}webviewer`;
+      WebViewer({ path, initialDoc: props.initialDoc }, viewer.value);
+    });
+
+    return {
+      viewer,
+    };
   },
-  mounted: function () {
-        WebViewer({
-            path: this.path,
-            initialDoc: this.url, // replace with your own PDF file
-          }, this.$refs.viewer).then((instance) => {
-            // call apis here
-          });
-    }
-}
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-div {
-  width: 100%; 
-  height: 100vh;
+<style>
+#webviewer {
+  height: 800px;
 }
 </style>

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <WebViewer :path="`${publicPath}lib`" url="https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf"/>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <WebViewer initialDoc="https://pdftron.s3.amazonaws.com/downloads/pl/demo-annotated.pdf"/>
   </div>
 </template>
 
@@ -8,24 +9,20 @@
 import WebViewer from './components/WebViewer.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     WebViewer
-  },
-  data () {
-    return {
-      publicPath: process.env.BASE_URL
-    }
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
