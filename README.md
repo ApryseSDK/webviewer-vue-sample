@@ -1,3 +1,8 @@
+# IE11
+Please note that for now, IE11 is not supported.
+https://github.com/vuejs/rfcs/issues/183#issuecomment-752735415
+https://github.com/vuejs/rfcs/issues/183
+
 # WebViewer - Vue sample
 
 [WebViewer](https://www.pdftron.com/documentation/web/) is a powerful JavaScript-based PDF Library that's part of the [PDFTron PDF SDK](https://www.pdftron.com). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
