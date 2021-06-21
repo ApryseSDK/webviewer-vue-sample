@@ -6,6 +6,10 @@
 
 This repo is specifically designed for any users interested in integrating WebViewer into Vue project. You can watch [an in-depth video](https://youtu.be/fCHkJ5_PLS0) going over this repo or [read a guide](https://www.pdftron.com/documentation/web/get-started/vue/).
 
+## Demo
+
+You can explore all of the functionality in our [showcase](https://www.pdftron.com/webviewer/demo/).
+
 ## Initial setup
 
 Before you begin, make sure your development environment includes [Node.js](https://nodejs.org/en/).
