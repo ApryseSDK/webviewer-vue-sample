@@ -13,7 +13,11 @@ export default {
     const viewer = ref(null);
     onMounted(() => {
       const path = `${process.env.BASE_URL}webviewer`;
-      WebViewer({ path, initialDoc: props.initialDoc }, viewer.value).then(
+      WebViewer({ 
+        path, 
+        initialDoc: props.initialDoc, 
+        licenseKey: 'your_license_key'  // sign up to get a free trial key at https://dev.apryse.com
+      }, viewer.value).then(
         (instance) => {
           const { documentViewer, annotationManager, Annotations } =
             instance.Core;
