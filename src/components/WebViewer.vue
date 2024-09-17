@@ -12,7 +12,7 @@ export default {
   setup(props) {
     const viewer = ref(null);
     onMounted(() => {
-      const path = `${process.env.BASE_URL}webviewer`;
+      const path = `${import.meta.env.BASE_URL}webviewer`;
       WebViewer({ 
         path, 
         initialDoc: props.initialDoc, 
