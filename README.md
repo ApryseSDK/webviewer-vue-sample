@@ -1,10 +1,11 @@
 # WebViewer - Vue sample
 
-[WebViewer](https://www.pdftron.com/documentation/web/) is a powerful JavaScript-based PDF Library that's part of the [PDFTron PDF SDK](https://www.pdftron.com). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
+[WebViewer](https://docs.apryse.com/documentation/web/) is a powerful JavaScript-based PDF Library that is part of the [Apryse PDF SDK](https://apryse.com). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
 
 ![WebViewer UI](https://www.pdftron.com/downloads/pl/webviewer-ui.png)
 
-This repo is specifically designed for any users interested in integrating WebViewer into Vue project. You can [read a guide](https://www.pdftron.com/documentation/web/get-started/vue/). This project has been scaffolded using [vite](https://vitejs.dev) through the `create-vue` npm command as recommended by the developers of Vue.js. For more details, see [here](https://vuejs.org/guide/scaling-up/tooling.html)
+This repo is specifically designed for any users interested in integrating WebViewer into Vue project. You can [read a guide](https://docs.apryse.com/documentation/web/get-started/vue/). This project has been scaffolded using [vite](https://vitejs.dev) through the `create-vue` npm command as recommended by the developers of Vue.js. For more details, see [here](https://vuejs.org/guide/scaling-up/tooling.html)
+
 ## Demos
 
 - [Customizable out-of-the-box UI](https://showcase.apryse.com/toolbar-customization)
