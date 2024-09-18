@@ -35,17 +35,17 @@ cd webviewer-vue-sample
 npm install
 ```
 
-### Run
+## Run
 In Visual Studio Code or from a Command Prompt window, preview the app in `localhost` with an `npm` command.
 
 ```
 npm start
 ```
 
-### Customize configuration
+## Customize configuration
 See [Configuration Reference](https://vitejs.dev/config/).
 
-### API Reference
+## API Reference
 * [@pdftron/webviewer API documentation](https://docs.apryse.com/api/web/global.html#WebViewer__anchor)
 
 ## Contributing
