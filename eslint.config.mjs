@@ -32,7 +32,9 @@ export default [
       '@stylistic/js/keyword-spacing': 'error',
       '@stylistic/js/no-multiple-empty-lines': 'error',
 
-      'strict': ['error', 'never'] // No `use strict`
+      'strict': ['error', 'never'], // No `use strict`
+
+      '@stylistic/js/eol-last': 'error' // files end with a newline (LF)
     }
   }
 ];
