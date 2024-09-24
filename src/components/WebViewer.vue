@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import { ref, onMounted } from "vue";
-import WebViewer from "@pdftron/webviewer";
+import { ref, onMounted } from 'vue';
+import WebViewer from '@pdftron/webviewer';
 
 export default {
-  name: "WebViewer",
+  name: 'WebViewer',
   props: { initialDoc: { type: String } },
   setup(props) {
     const viewer = ref(null);
@@ -22,7 +22,7 @@ export default {
           const { documentViewer, annotationManager, Annotations } =
             instance.Core;
 
-          documentViewer.addEventListener("documentLoaded", () => {
+          documentViewer.addEventListener('documentLoaded', () => {
             const rectangleAnnot = new Annotations.RectangleAnnotation({
               PageNumber: 1,
               // values are in page coordinates with (0, 0) in the top left
