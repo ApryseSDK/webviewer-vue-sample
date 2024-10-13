@@ -1,10 +1,10 @@
 # WebViewer - Vue sample
 
-[WebViewer](https://www.pdftron.com/documentation/web/) is a powerful JavaScript-based PDF Library that's part of the [PDFTron PDF SDK](https://www.pdftron.com). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
+[WebViewer](https://docs.apryse.com/documentation/web/) is a powerful JavaScript-based PDF Library that is part of the [Apryse PDF SDK](https://apryse.com). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
 
 ![WebViewer UI](https://www.pdftron.com/downloads/pl/webviewer-ui.png)
 
-This repo is specifically designed for any users interested in integrating WebViewer into Vue project. You can watch [an in-depth video](https://youtu.be/fCHkJ5_PLS0) going over this repo or [read a guide](https://www.pdftron.com/documentation/web/get-started/vue/).
+This repo is specifically designed for any users interested in integrating WebViewer into Vue project. You can [read a guide](https://docs.apryse.com/documentation/web/get-started/vue/). This project has been scaffolded using [vite](https://vitejs.dev) through the `create-vue` npm command as recommended by the developers of Vue.js. For more details, see [here](https://vuejs.org/guide/scaling-up/tooling.html)
 
 ## Demos
 
@@ -23,42 +23,35 @@ This repo is specifically designed for any users interested in integrating WebVi
 
 ## Trial
 
-WebViewer comes with a 7-day trial without any feature limitations or trial key needed. To extend the trial, you can obtain the trial key by [signing-up](https://dev.apryse.com/) on our [developer portal](https://dev.apryse.com/).
+WebViewer comes with a 7-day trial without any feature limitations or trial key needed. To extend the trial, you can obtain the trial key by signing-up through the [developer portal](https://dev.apryse.com/).
 
-## Initial setup
+## Install
 
-Before you begin, make sure your development environment includes [Node.js](https://nodejs.org/en/).
+Before you begin, make sure the development environment includes [Node.js](https://nodejs.org/en/).
 
-## Project setup
 ```
+git clone https://github.com/ApryseSDK/webviewer-vue-sample.git
+cd webviewer-vue-sample
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Run
+In Visual Studio Code or from a Command Prompt window, preview the app in `localhost` with an `npm` command.
+
 ```
-npm run serve
+npm start
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Customize configuration
+See [Configuration Reference](https://vitejs.dev/config/).
 
-### Run your tests
-```
-npm run test
-```
+## API Reference
+* [@pdftron/webviewer API documentation](https://docs.apryse.com/api/web/global.html#WebViewer__anchor)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Contributing
 
-# IE11
-Please note that for now, IE11 is not supported.
-https://github.com/vuejs/rfcs/issues/183#issuecomment-752735415
-https://github.com/vuejs/rfcs/issues/183
+Any submission to this repo is governed by these [guidelines](/CONTRIBUTING.md).
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-![](https://onepixel.pdftron.com/webviewer-vue-sample)
+## License
+
+For licensing, refer to [License](LICENSE).
