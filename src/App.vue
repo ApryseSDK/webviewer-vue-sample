@@ -7,10 +7,10 @@
 </template>
 
 <script>
-import WebViewer from "./components/WebViewer.vue";
+import WebViewer from './components/WebViewer.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     WebViewer,
   },
